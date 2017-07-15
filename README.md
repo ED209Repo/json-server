@@ -85,7 +85,50 @@ http://localhost:3000/users?age_gte=30
 http://localhost:3000/users?age_gte=30&age_lte=40
 
 * FULL TEXT SEARCH
-http://localhost:3000/users?q=Paul
+http://localhost:3000/users?q=Leanne
+
+
+### Add User - Postman in Chrome
+
+* We're going to add a user in Postman - this is something you cannot do with the remote version.
+
+* POST: http://localhost:3000/users
+* Go into Headers (if not there, hit + on tabs) and specify Content-Type is application/json
+* In Body (raw data): curly braces and data
+
+Example:
+
+```
+{
+	  "name": "Chris Scott",
+      "username": "C3333",
+      "age": "42",
+      "email": "Chadada_McDermott@dana.io",
+      "companyId":"2"
+}
+```
+
+
+* Hits SEND, should get info back with new Id
+* Check: http://localhost:3000/users
+
+
+### Delete User - Postman in Chrome
+
+* Switch to Delete
+* http://localhost:3000/users/11
+
+
+### Patch User - Postman in Chrome
+* Start same as Add user but for Patch
+* Go into Headers (if not there, hit + on tabs) and specify Content-Type is application/json
+* In Body (raw data): curly braces and data
+* PATCH: http://localhost:3000/users/1
+```
+{
+	"username":"Cs1900"
+}
+```
 
 
 
