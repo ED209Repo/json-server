@@ -18,8 +18,29 @@ Following tutorial video: https://www.youtube.com/watch?v=1zkgdLZEdwM
 * We can start the server with: `json-server --watch db.json`
 * Let's make this an npm scripts
 * In scripts in package.json in json:server
-* `"json:server":"json:server --watch db.json"`
+* `"json:server":"json-server --watch db.json"`
 
 * Next we have to create our data file - call it db.json
 * This is going to be a basic json file
 * Get the starter data from http://jsonplaceholder.typicode.com/users
+* Add fake data
+
+* Start server:  `npm run json:server`
+
+* Should get a result like:
+```
+
+ Loading db.json
+ Done
+
+ Resources
+ http://localhost:3000/users
+ http://localhost:3000/companies
+
+ Home
+ http://localhost:3000
+
+ Type s + enter at any time to create a snapshot of the database
+ Watching...
+
+```

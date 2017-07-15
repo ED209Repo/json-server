@@ -235,27 +235,27 @@
         {
           "id":"1",
           "name":"Apple",
-          "description":"Apple Inc. is an American multinational technology company headquartered in Cupertino, California that designs, develops, and sells consumer electronics, computer software, and online services.",
+          "description":"Apple Inc. is an American multinational technology company headquartered in Cupertino, California that designs, develops, and sells consumer electronics, computer software, and online services."
         },
         {
           "id":"2",
           "name":"Google",
-          "description":"Google Inc. is an American multinational technology company headquartered in Cupertino, California that designs, develops, and sells consumer electronics, computer software, and online services.",
+          "description":"Google Inc. is an American multinational technology company headquartered in Cupertino, California that designs, develops, and sells consumer electronics, computer software, and online services."
         },
         {
           "id":"3",
           "name":"Microsoft",
-          "description":"Microsoft Inc. is an American multinational technology company headquartered in Cupertino, California that designs, develops, and sells consumer electronics, computer software, and online services.",
+          "description":"Microsoft Inc. is an American multinational technology company headquartered in Cupertino, California that designs, develops, and sells consumer electronics, computer software, and online services."
         },
         {
           "id":"4",
           "name":"Facebook",
-          "description":"Facebook Inc. is an American multinational technology company headquartered in Cupertino, California that designs, develops, and sells consumer electronics, computer software, and online services.",
+          "description":"Facebook Inc. is an American multinational technology company headquartered in Cupertino, California that designs, develops, and sells consumer electronics, computer software, and online services."
         },
         {
           "id":"5",
           "name":"Cisco",
-          "description":"Cisco Inc. is an American multinational technology company headquartered in Cupertino, California that designs, develops, and sells consumer electronics, computer software, and online services.",
+          "description":"Cisco Inc. is an American multinational technology company headquartered in Cupertino, California that designs, develops, and sells consumer electronics, computer software, and online services."
         }
       ]
 }
