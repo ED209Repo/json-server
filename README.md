@@ -20,10 +20,17 @@ Following tutorial video: https://www.youtube.com/watch?v=1zkgdLZEdwM
 * In scripts in package.json in json:server
 * `"json:server":"json-server --watch db.json"`
 
+### Make data file
+
 * Next we have to create our data file - call it db.json
 * This is going to be a basic json file
 * Get the starter data from http://jsonplaceholder.typicode.com/users
 * Add fake data
+* Let's say you have users and companies - you can add a companyId to correlate
+
+
+
+### Start server
 
 * Start server:  `npm run json:server`
 
@@ -44,3 +51,46 @@ Following tutorial video: https://www.youtube.com/watch?v=1zkgdLZEdwM
  Watching...
 
 ```
+
+
+### Different routes available
+
+* GET ALL USERS
+http://localhost:3000/users
+
+* GET SINGLE USER
+http://localhost:3000/users/1
+
+* GET ALL COMPANIES
+http://localhost:3000/companies
+
+* GET SINGLE COMPANY
+http://localhost:3000/companies/1
+
+* GET ALL USERS OF A COMPANY
+http://localhost:3000/companies/1/users
+
+* FILTER COMPANIES BY NAME
+http://localhost:3000/companies?name=Microsoft
+http://localhost:3000/companies?name=Microsoft&name=Apple
+
+* PAGINATION & LIMIT
+http://localhost:3000/companies?_page=1&_limit=2
+
+* SORTING
+http://localhost:3000/companies?_sort=name&_order=asc
+
+* USERS AGE RANGE
+http://localhost:3000/users?age_gte=30
+http://localhost:3000/users?age_gte=30&age_lte=40
+
+* FULL TEXT SEARCH
+http://localhost:3000/users?q=Paul
+
+
+
+
+
+
+
+.
